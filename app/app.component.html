@@ -1,0 +1,22 @@
+<md-sidenav-layout class="app-root">
+  <md-sidenav #start>
+    <md-nav-list>
+      <a md-list-item [routerLink]="['Home']">Home</a>
+      <a md-list-item [routerLink]="['About']">About</a>
+    </md-nav-list>
+    <button md-button (click)="start.close()">CLOSE</button>
+  </md-sidenav>
+  <div>
+    <md-toolbar color="primary">
+      <i class="material-icons" (click)="start.open()">menu</i>
+      <div class="demo-toolbar">
+        <h1>Angular 2 + Material2 + JSPM  Seed</h1>
+      </div>
+    </md-toolbar>
+
+    <div class="demo-content">
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+</md-sidenav-layout>
