@@ -1,6 +1,9 @@
+## Setup
 
+- angular2-2.0.0-beta.17 
+- angular2-material-2.0.0-alpha.5
 
-## angular2-2.0.0-beta.17 and angualr2-materail-2.0.0-alpha.5
+## Exception
 
 ```
 EXCEPTION: No Directive annotation found on MdSidenavLayout
