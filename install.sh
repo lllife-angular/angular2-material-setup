@@ -1,4 +1,4 @@
 #!/bin/sh
 
-jspm install npm:$*
-npm install --save $*
+jspm install npm:$* --dev
+npm install --save-dev $*

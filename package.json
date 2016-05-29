@@ -1,7 +1,12 @@
 {
   "jspm": {
-    "dependencies": {
+    "devDependencies": {
+      "@angular/common": "npm:@angular/common@^2.0.0-rc.1",
       "@angular/core": "npm:@angular/core@^2.0.0-rc.1",
+      "@angular/http": "npm:@angular/http@^2.0.0-rc.1",
+      "@angular/platform-browser": "npm:@angular/platform-browser@^2.0.0-rc.1",
+      "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@^2.0.0-rc.1",
+      "@angular/router": "npm:@angular/router@^2.0.0-rc.1",
       "@angular2-material/button": "npm:@angular2-material/button@^2.0.0-alpha.5",
       "@angular2-material/card": "npm:@angular2-material/card@^2.0.0-alpha.5",
       "@angular2-material/checkbox": "npm:@angular2-material/checkbox@^2.0.0-alpha.5",
@@ -15,22 +20,25 @@
       "@angular2-material/radio": "npm:@angular2-material/radio@^2.0.0-alpha.5",
       "@angular2-material/sidenav": "npm:@angular2-material/sidenav@^2.0.0-alpha.5",
       "@angular2-material/toolbar": "npm:@angular2-material/toolbar@^2.0.0-alpha.5",
-      "angular2": "npm:angular2@^2.0.0-beta.17",
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
       "crypto": "github:jspm/nodelibs-crypto@^0.1.0",
       "css": "github:systemjs/plugin-css@^0.1.21",
       "es6-shim": "github:es-shims/es6-shim@^0.35.1",
       "reflect-metadata": "npm:reflect-metadata@^0.1.3",
       "rxjs": "npm:rxjs@^5.0.0-beta.8",
+      "typescript": "npm:typescript@^1.6.2",
       "zone.js": "npm:zone.js@^0.6.12"
-    },
-    "devDependencies": {
-      "babel": "npm:babel-core@^5.8.24",
-      "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "core-js": "npm:core-js@^1.1.4",
-      "typescript": "npm:typescript@^1.6.2"
     }
   },
-  "dependencies": {
+  "devDependencies": {
+    "@angular/common": "^2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.1",
+    "@angular/http": "^2.0.0-rc.1",
+    "@angular/platform-browser": "^2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "@angular/router": "^2.0.0-rc.1",
     "@angular2-material/button": "^2.0.0-alpha.5",
     "@angular2-material/card": "^2.0.0-alpha.5",
     "@angular2-material/checkbox": "^2.0.0-alpha.5",
@@ -44,7 +52,6 @@
     "@angular2-material/radio": "^2.0.0-alpha.5",
     "@angular2-material/sidenav": "^2.0.0-alpha.5",
     "@angular2-material/toolbar": "^2.0.0-alpha.5",
-    "angular2": "^2.0.0-beta.17",
     "es6-shim": "^0.35.1",
     "ng2-material": "^0.4.1",
     "reflect-metadata": "^0.1.3",

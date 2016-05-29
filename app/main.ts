@@ -1,12 +1,13 @@
 import "reflect-metadata";
 import "es6-shim";
 
-import { bootstrap } from "angular2/platform/browser";
-import { ROUTER_PROVIDERS } from "angular2/router";
-import { APP_BASE_HREF } from "angular2/platform/common";
-import { provide } from "angular2/core";
+import { bootstrap } from "@angular/platform-browser-dynamic";
+import { ROUTER_PROVIDERS } from "@angular/router";
+import { APP_BASE_HREF } from "@angular/common";
+import { provide } from "@angular/core";
 import { AppComponent } from "./app.component";
+import {HTTP_PROVIDERS} from '@angular/http';
 
-bootstrap(AppComponent, [ROUTER_PROVIDERS, provide(APP_BASE_HREF, { useValue: "/" })]);
-
-
+bootstrap(AppComponent, [
+  HTTP_PROVIDERS,
+]);

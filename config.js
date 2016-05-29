@@ -13,7 +13,12 @@ System.config({
   },
 
   map: {
+    "@angular/common": "npm:@angular/common@2.0.0-rc.1",
     "@angular/core": "npm:@angular/core@2.0.0-rc.1",
+    "@angular/http": "npm:@angular/http@2.0.0-rc.1",
+    "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "npm:@angular/platform-browser-dynamic@2.0.0-rc.1",
+    "@angular/router": "npm:@angular/router@2.0.0-rc.1",
     "@angular2-material/button": "npm:@angular2-material/button@2.0.0-alpha.5",
     "@angular2-material/card": "npm:@angular2-material/card@2.0.0-alpha.5",
     "@angular2-material/checkbox": "npm:@angular2-material/checkbox@2.0.0-alpha.5",
@@ -27,7 +32,6 @@ System.config({
     "@angular2-material/radio": "npm:@angular2-material/radio@2.0.0-alpha.5",
     "@angular2-material/sidenav": "npm:@angular2-material/sidenav@2.0.0-alpha.5",
     "@angular2-material/toolbar": "npm:@angular2-material/toolbar@2.0.0-alpha.5",
-    "angular2": "npm:angular2@2.0.0-beta.17",
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
     "core-js": "npm:core-js@1.2.6",
@@ -78,6 +82,10 @@ System.config({
       "@angular/core": "npm:@angular/core@2.0.0-rc.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
+    "npm:@angular/compiler@2.0.0-rc.1": {
+      "@angular/core": "npm:@angular/core@2.0.0-rc.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
     "npm:@angular/core@2.0.0-rc.1": {
       "process": "github:jspm/nodelibs-process@0.1.2",
       "rxjs": "npm:rxjs@5.0.0-beta.6",
@@ -86,6 +94,24 @@ System.config({
     "npm:@angular/http@2.0.0-rc.1": {
       "@angular/core": "npm:@angular/core@2.0.0-rc.1",
       "rxjs": "npm:rxjs@5.0.0-beta.6"
+    },
+    "npm:@angular/platform-browser-dynamic@2.0.0-rc.1": {
+      "@angular/common": "npm:@angular/common@2.0.0-rc.1",
+      "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.1",
+      "@angular/core": "npm:@angular/core@2.0.0-rc.1",
+      "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:@angular/platform-browser@2.0.0-rc.1": {
+      "@angular/common": "npm:@angular/common@2.0.0-rc.1",
+      "@angular/compiler": "npm:@angular/compiler@2.0.0-rc.1",
+      "@angular/core": "npm:@angular/core@2.0.0-rc.1",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:@angular/router@2.0.0-rc.1": {
+      "@angular/common": "npm:@angular/common@2.0.0-rc.1",
+      "@angular/core": "npm:@angular/core@2.0.0-rc.1",
+      "@angular/platform-browser": "npm:@angular/platform-browser@2.0.0-rc.1"
     },
     "npm:@angular2-material/button@2.0.0-alpha.5": {
       "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
@@ -129,11 +155,6 @@ System.config({
     },
     "npm:@angular2-material/toolbar@2.0.0-alpha.5": {
       "@angular2-material/core": "npm:@angular2-material/core@2.0.0-alpha.5"
-    },
-    "npm:angular2@2.0.0-beta.17": {
-      "reflect-metadata": "npm:reflect-metadata@0.1.2",
-      "rxjs": "npm:rxjs@5.0.0-beta.8",
-      "zone.js": "npm:zone.js@0.6.12"
     },
     "npm:asn1.js@4.6.0": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
@@ -353,10 +374,6 @@ System.config({
       "process": "github:jspm/nodelibs-process@0.1.2",
       "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31"
-    },
-    "npm:reflect-metadata@0.1.2": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:ripemd160@1.0.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
